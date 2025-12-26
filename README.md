@@ -2,10 +2,10 @@
 
 A hardware-based security system designed to verify a 3-bit binary password. This project demonstrates the integration of **Combinational Logic** (for verification) and **Sequential Logic** (for data storage).
 
-## 📌 Project Overview
+## Project Overview
 The system allows a user to input a 3-bit code via DIP switches, visualize the input on 7-segment displays, and "lock" the data into memory using Flip-Flops. A logic gate array then compares the stored bits against a preset password (**101**).
 
-## 🛠️ System Architecture
+## System Architecture
 
 ### 1. Input & Display Section
 - **Device:** 8-bit DIP Switch (3 bits utilized).
@@ -34,7 +34,7 @@ The system verifies the stored code against the preset password **101**.
 
 ## Demonstration
 ![Physical Circuit](./media/Physical_Circuit.jpg)
-![Demo](./media/Demo.mp4)
+*Watch the full demonstration video [here](https://drive.google.com/file/d/1rHWM3Ba40MnHvZpK7oHRWY_VCJT5ww_l/view?usp=drive_link).*
 
 ## Lessons Learned
 - Understanding **Active-High vs. Active-Low** configurations for the CD4511 IC.
